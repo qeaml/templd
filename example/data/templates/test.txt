@@ -1,0 +1,21 @@
+= Testing template
+  Hello world
+
+  This is a test of the new template format I wrote. I sure do hope it works
+  correctly and does not cause any issues!
+
+- How it works
+  The answer is quite simple. It reads any given template line-by-line and then
+  uses the first character of that line to determine the final appearance of
+  that line. For example, putting an equals sign (=) as the first character of
+  a line will turn it into a heading.
+
+  Below is a small example of a document in this little template language:
+
+` = Hello world
+`   This is a template
+`
+` - Template language
+`   qeaml made this!
+- But why?
+  I just had this idea in the back of my head. And I turned it into reality.
